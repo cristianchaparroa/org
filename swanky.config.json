@@ -1,0 +1,169 @@
+{
+  "node": {
+    "localPath": "bin/swanky-node",
+    "polkadotPalletVersions": "polkadot-v0.9.39",
+    "supportedInk": "v4.2.0"
+  },
+  "accounts": [
+    {
+      "alias": "eve",
+      "mnemonic": "//Eve",
+      "isDev": true,
+      "address": "7GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+    },
+    {
+      "alias": "alice",
+      "mnemonic": "//Alice",
+      "isDev": true,
+      "address": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY"
+    },
+    {
+      "alias": "bob",
+      "mnemonic": "//Bob",
+      "isDev": true,
+      "address": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty"
+    }
+  ],
+  "networks": {
+    "local": {
+      "url": "ws://127.0.0.1:9944"
+    },
+    "astar": {
+      "url": "wss://rpc.astar.network"
+    },
+    "shiden": {
+      "url": "wss://rpc.shiden.astar.network"
+    },
+    "shibuya": {
+      "url": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  "contracts": {
+    "flipper": {
+      "name": "flipper",
+      "moduleName": "flipper",
+      "deployments": [
+        {
+          "timestamp": 1693192512303,
+          "address": "5DrjYQ2Fu2fkHeMTrJFU2ey21XGsXb5CkdMq9gEPq3yLSCVB",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "alice"
+        },
+        {
+          "timestamp": 1695003690289,
+          "address": "5HLwk5yCMBhs29z5Qj2b8PugD6hJ7bTCTT64oz58qvFPcFaa",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "alice"
+        },
+        {
+          "timestamp": 1695014955372,
+          "address": "5HXHWorRNzoVUuTNwT6heiHu7mC4954KoTecdjiYhojibwFp",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "alice"
+        },
+        {
+          "timestamp": 1695015242818,
+          "address": "5Dz6hv8c6gj5ZShwLT6KostprYkbirHfkMYbCpcgraaRAvr6",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "alice"
+        }
+      ]
+    },
+    "organization": {
+      "name": "organization",
+      "moduleName": "organization",
+      "deployments": [
+        {
+          "timestamp": 1695254333541,
+          "address": "5FxkDVY5x3d5oUUBH2upPeXRahHJ94MgHzXH1twSuTS8Z3oC",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "alice"
+        },
+        {
+          "timestamp": 1695260381780,
+          "address": "5E9DvYew2Ts6Lgp3BEcMXsCstgAq5CpGcJHEQdHP1y4qJ5EB",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695260916564,
+          "address": "5EASNVCQ98VhpqZ5pNLvQDW1yrduomDv76DewtRD8YSCuTvP",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695261625327,
+          "address": "5GBSa7tDJQfiBu7CDHScnrWimDcV1qdr4Etjsgnbrs7yhu6A",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695261754333,
+          "address": "5FZerP3o1uZSiMMR4u1y8cNb1krJZZrx4WC9i1ggM4MkvP9r",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695262168949,
+          "address": "5HAsahs3uqo8EZ1ce8PAHxp3ZPKtTG8CEch8BhUHymSch4Yt",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695263594027,
+          "address": "5FevVkGhC4CErixkB2adKUBCJc2b9rroSWggNaCVoNLJBqzE",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695271274913,
+          "address": "5GLxGCWa3CAV4qGUsJdCGQJCSgtGTk1z9R7DaPrj5QajLrEj",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695271495447,
+          "address": "5CTpmRKcGgDBX6Bn9pwyA3JB8wrdF66DfsE7vZy8Zn4Lc5Hh",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695359454164,
+          "address": "5E9a89HZKhpRtn37gbGJgSv9gM2gaG66F8PrJ8N1nYrJnoLc",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695360053511,
+          "address": "5CGbEBCWWhcefYefbEkxqEZPmLJ9MkiPi7ZUHa7JKw6yHCpC",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695360121464,
+          "address": "5DatcPRU7iHEw4xTxJDQCNoRbds8nvHrZmCaWNmPqsqVPqRK",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695360640571,
+          "address": "5C544J7MbGt72mJeDAfNoDqETgj1W7qY6cs1jaN7esPSLdgm",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695361492875,
+          "address": "5FWnmoaZRAZGRgS9CfyMx42QSqtqm3TmjvJkrXLSCUgsqVCs",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1695361528906,
+          "address": "5FTo6PftpmyfYodXHX983EjkdMvmcMZdNrbQrLcgDw39T7K6",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        }
+      ]
+    }
+  }
+}
