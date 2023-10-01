@@ -1,6 +1,6 @@
 {
   "source": {
-    "hash": "0xfd7f05b6d8d853b7ff5869b13a8b363d9e689efaf1b80bd33847f33ad1c139f8",
+    "hash": "0xb8ce11c06d061e63135a549067a0f4447c2d46b6034127153ada3a92301ba4b5",
     "language": "ink! 4.3.0",
     "compiler": "rustc 1.69.0",
     "build_info": {
@@ -56,13 +56,13 @@
         "displayName": [
           "BlockNumber"
         ],
-        "type": 13
+        "type": 12
       },
       "chainExtension": {
         "displayName": [
           "ChainExtension"
         ],
-        "type": 14
+        "type": 13
       },
       "hash": {
         "displayName": [
@@ -75,7 +75,7 @@
         "displayName": [
           "Timestamp"
         ],
-        "type": 12
+        "type": 3
       }
     },
     "events": [],
@@ -93,7 +93,7 @@
             "label": "score",
             "type": {
               "displayName": [
-                "i8"
+                "u64"
               ],
               "type": 3
             }
@@ -229,7 +229,7 @@
       "id": 3,
       "type": {
         "def": {
-          "primitive": "i8"
+          "primitive": "u64"
         }
       }
     },
@@ -391,7 +391,7 @@
               {
                 "name": "score",
                 "type": 3,
-                "typeName": "i8"
+                "typeName": "u64"
               }
             ]
           }
@@ -435,20 +435,12 @@
       "id": 12,
       "type": {
         "def": {
-          "primitive": "u64"
-        }
-      }
-    },
-    {
-      "id": 13,
-      "type": {
-        "def": {
           "primitive": "u32"
         }
       }
     },
     {
-      "id": 14,
+      "id": 13,
       "type": {
         "def": {
           "variant": {}

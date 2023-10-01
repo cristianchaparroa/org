@@ -162,6 +162,24 @@
           "address": "5FTo6PftpmyfYodXHX983EjkdMvmcMZdNrbQrLcgDw39T7K6",
           "networkUrl": "ws://127.0.0.1:9944",
           "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1696128150061,
+          "address": "5E5V5ChJfyJtrN83KLS2wCQGmUkxEd2MqmUGezFRW44mMyAe",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1696130596722,
+          "address": "5FKY4VVDHUxvK23HAHGrLXBhW1SVi5oqTVMGoxiLAogtPsBu",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
+        },
+        {
+          "timestamp": 1696130906646,
+          "address": "5Gh5Hh589zC9CvJF1ToaeN4srZBehZ8tDWBtSWvSE3jrn9rH",
+          "networkUrl": "ws://127.0.0.1:9944",
+          "deployerAlias": "eve"
         }
       ]
     }

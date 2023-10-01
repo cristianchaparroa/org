@@ -12,7 +12,7 @@ mod organization {
         address: AccountId,
         // the contributor score is the reputation between 0-10
         // where 0 is the worst and 10 is the best.
-        score: i8,
+        score: u64,
     }
 
     impl Contributor {}
@@ -35,7 +35,7 @@ mod organization {
         // add contributors create a new contributor in the storage
         // according to the account id caller
         #[ink(message, payable)]
-        pub fn addcontributor(&mut self, score: i8) {
+        pub fn addcontributor(&mut self, score: u64) {
             let caller = self.env().caller();
             let contributor = Contributor{
                 address: caller,
